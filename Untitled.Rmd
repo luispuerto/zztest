@@ -1,0 +1,13 @@
+---
+title: "Checking if I can see flags on the regular API from comtrade"
+output: html_notebook
+---
+
+I would like to know if there those flags are in the original data or what is going on. 
+
+I going to try to ask for some data using the regular API. 
+
+Problem is that API doesn't allow me to ask for that kind of data. 
+
+
+

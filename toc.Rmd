@@ -1,0 +1,109 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+# MWeb improvements & bugs
+
+Hey! 
+
+I really like your app and I think you've done a really wonderful work. I've been using it for a little while and I have some suggestions about it:  
+
+[TOC]
+
+## macOS App
+
+### Link to notes from outside of the app
+
+It's pretty great that you can link notes inside of the app, but I think it would be even greater if you can link notes to outside of the app, in the same way other apps do. For instance, Evernote. I like to use Things app and it allows to link notes to Evernote for example related to pending task. I would love to do the same with MWeb. 
+
+If I try to link to notes hosted in MWeb library I get this 
+
+I think the problem is there is only one kind of URL related to MWeb register in the system (mwebapp://) 
+
+I've tried to change the links to notes from mweblib:// to mwebapp:// but I don't get any successful result. 
+
+### Auto refresh preview ➜ flickering
+
+The auto-refresh of the preview feature is quite annoying, usually it's flickering all the time while typing. 
+
+You should have an option to disable it or even better improve it in a way you don't notice that preview refresh. Why no both. 
+
+\* While writing this the preview more to the beginning of the document for a while. I think it's has to do with the position. If I just modify things in the beginning there is no flickering. 
+
+### Switch to the preview in the same place
+
+Related to the previous point perhaps. It would be great to switch to preview and see the same exact area you are editing on the editor, instead to the preview go to the top of the document or in a totally different area. 
+
+### Improve anchor links
+
+The anchor links work when the document is published, but it would be great if they can work also in the editor. Right now when I link a part of the document —a header— I get an error in the editor and in the preview doesn't work. This in combination with your outline of the document would be awesome. 
+
+### Real TOC creation for exporting as a website
+
+Now if I need to create a TOC to export directly the markdown document I need to create the TOC manually or use a external app. It would be great if there were an option of something to create a TOC. The `[TOC]` tag is great, but only if you are going to export to other format. 
+
+### Single note view
+
+It would be really interesting if a single note view would be implemented. I know that you can just hide the left panes, but an easy way to create a new window directly without those panes with a simple double click over a note, could be really interesting. 
+
+### Code-blocks line numbers
+
+Is there any way to implement this in a easy way? I think I've already commented this in the [github of the app](https://github.com/oulvhai/MWeb-issues/issues/941). 
+
+As I wrote there I tried to implement it using CSS and the result wasn't satisfactory. Something like this would be really appreciated, either if you implement if with CSS themes or with general option in the app. 
+
+### Code-blocks themes / styles
+
+I would love to be able to change the highlighting theme of the code-blocks in the preview. For example I like Github theme, but I think the default GitHub code-block highlighting is really blunt. I've tried to change changing the CSS, but it's really complicated and time consuming. It would be great if we can apply some of the highlighting themes for the major highlighter for the web, like prism or rouge. 
+
+### Editor styles
+
+I would like to have also more option as editor styles. I love twilight and in my coding apps it's usually the one I'm using, but here there is no option. I've also try to implement changing he `.style` files, but was also time consuming and the result wasn't really good. 
+
+### Highlight markdown strikeout (~~something~~)
+
+The strikeout (~~strikeout~~) isn't highlighted in the editor. This is not a big deal and I know some others editor doesn't do that also, but it would be great if you can implement it. Can be easily implemented in modifying the `.style` files? 
+
+### Tags
+
+The implementation of tags in the app is really great, but I'm missing some things. 
+
+1. **Tags autocompletion**: to avoid similar tags to be created by typos, or to search for specific tags.
+2. **Tags alphabetical order**: organize tags by alphabetical order, either on the note list or in the note tagging interface.    
+3. **View tags —and categories— on preview**: it would be great to be able to see the tags of the post and the categories in the top of the preview. 
+
+### Order of categories - folders by name
+
+Right now categories - folders have to be organized manually, which is great if you want to have an specific order, but it would be great to be able to organize it alphabetically automatically. 
+
+### Favorites category in the macOS app equivalent to the iOS app
+
+The favorites category is a really great idea and it's presented in the iOS app. Why don't you implement it also in the macOS app? 
+
+### Detect Jekyll front matter
+
+Right now I think the Jekyll front matter isn't detected properly like in other Markdown editors —Macdown or Atom for example. At least it's detected in the same way. In other editors it's detected as a table and here it's detected as code-block. I don't know if I'm missing some feature or extension that has to be activated. 
+
+## iOS app
+
+### Note list really small
+
+The note list in the iOS app sometimes is really small and it's imposible to read any on the titles of the notes. 
+
+### Order
+
+Same things I've said about the macOS app and the [organization]() of [tags](#tags) and [categories - folders](#order-of-categories---folders-by-name) would apply [here](#highlight-markdown-strikeout-~~something~~). 
+
+## Bugs
+
+The only bug I've detected is that words that contain links are cut in the preview, instead of the word jump to a new line. 
+
+![](https://user-images.githubusercontent.com/22882880/40839592-fd3ff5ae-65ab-11e8-908c-da243bfb5878.png)
+
+Something I've already commented [here](https://github.com/oulvhai/MWeb-issues/issues/942).       
+
+
+
+
